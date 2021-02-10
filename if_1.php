@@ -1,10 +1,10 @@
 <?php
 
 $a = 5;
-$b = 3;
+$b = 2;
 
 if ($a > $b) {
     echo $a;
-} else {
+} elseif ($a == $b) {
     echo '入力された値は等しいです';
 }
